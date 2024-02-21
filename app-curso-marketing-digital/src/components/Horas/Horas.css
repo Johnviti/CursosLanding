@@ -1,7 +1,9 @@
 .foto_background{
     width: 100%;
     height: 600px;
-    background-color: var(--cor-secundaria);
+    background-image: url('../../assets/img/wallpapper.png');
+    /* object-fit: contain; */
+    background-size: cover;
     clip-path: polygon(0 0, 100% 0, 100% 37%, 0 77%);
     position: absolute;
 }
@@ -12,17 +14,107 @@
     flex-direction: column;
     align-items: center;
     height: 100vh;
+    padding-bottom: 50px;
 }
 
 
 .conteudo_horas {
     display: flex;
-    align-items: end;
-    justify-content: end;
+    align-items: flex-end;
+    justify-content: space-between;
     height: 100%;
+    width: 100%;
     padding: var(--padding);
     gap: 10px;
     z-index: 100;
+}
+
+.social_links{
+    padding-left: 100px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+}
+.grupo_links{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+}
+.grupo_links a>img{
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+.grupo_links a>img:hover{
+    transform: scale(1.3);
+}
+
+.texto_links p{
+    font-size: var(--font-size-p);
+    font-weight: 500;
+    font-style: normal;
+    line-height: 150%;
+    letter-spacing: 0.3px;
+    width: 500px;
+    overflow: hidden;
+    text-align: justify;
+}
+
+.texto_horas{
+    font-weight: 700;
+    font-style: normal;
+    line-height: 150%;
+    letter-spacing: 0.3px;
+    color: var(--cor-principal);
+    text-align: right;
+    margin-top: 20px;
+}
+
+.texto_horas h1{
+    font-size: 6vw;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 150%;
+    letter-spacing: 0.3px;
+    color: var(--cor-principal);
+    text-align: right;
+    margin-top: 20px;
+}
+
+.texto_horas p{
+    font-size: 4.5vw;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 150%;
+    letter-spacing: 0.3px;
+    overflow: hidden;
+    text-align: right;
+}
+
+@media (max-width: 1360px){
+    .texto_horas h1{
+        font-size: 5vw;
+    }
+    .texto_horas p{
+        font-size: 3.5vw;
+    }
+    .texto_links p{
+        width: 350px;
+    }  
+    .grupo_links a>img {
+        width: 50px;
+        height: 50px; 
+    }
+    .grupo_links{
+        gap: 50px;
+    }
 }
 
 

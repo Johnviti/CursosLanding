@@ -28,33 +28,11 @@
     gap: 2vh;
 }
 
-/* Efeito de aparecer imagem */
 .detalhe img {
     width: 8vw;
     height: 8vw;
     border-radius: 50%;
-    opacity: 0;
 }
-
-.aparecer-enter {
-opacity: 0;
-}
-
-.aparecer-enter-active {
-opacity: 1;
-transition: opacity 0.6s ease-in;
-}
-
-.aparecer-exit {
-opacity: 1;
-}
-
-.aparecer-exit-active {
-opacity: 0;
-transition: opacity 0.6s ease-in;
-}
-
-/* fim  */
 
 .detalhe p{
     font-size: var(--font-size-p);
@@ -62,7 +40,7 @@ transition: opacity 0.6s ease-in;
     font-style: normal;
     line-height: 150%;
     letter-spacing: 0.3px;
-    width: 250px;
+    width: 330px;
     overflow: hidden;
 }
 
@@ -76,22 +54,21 @@ transition: opacity 0.6s ease-in;
 .foto_marketing img{
     border-radius: var(--borde-radius);
     object-fit: cover;
+    height: 765px;
 }
 
 .skills_curso{
     display: flex;
     flex-direction: column;
-    padding-left: 30px;
-    padding-right: 30px;
     justify-content: center;
-    align-items: right;
+    align-items: flex-start;
     gap: 4vh;
 }
 .skills_item{
     display: flex;
     flex-direction: column;
     gap: 5px;
-    padding: 20px 50px 20px 20px;
+    padding: 20px 80px 20px 20px;
     border-radius: var(--borde-radius);
     align-items: right;
     background-color: var(--cor-cinza);
@@ -113,6 +90,15 @@ transition: opacity 0.6s ease-in;
     white-space: nowrap;
     overflow: hidden;
 }
+.skills_item p{
+    font-size: var(--font-size-p);
+    font-weight: var(--font-height-p);
+    font-style: normal;
+    line-height: 150%;
+    letter-spacing: 0.3px;
+    width: 650px;
+    overflow: hidden;
+}
 
 .conteudo_card{
     margin: 10vh 0 14vh;
@@ -125,8 +111,8 @@ transition: opacity 0.6s ease-in;
 .card{
     display: flex;
     flex-direction: column;
-    height: 10em;
     background-color: var(--cor-branco);
+    width: 25vw;
     padding-left: 30px;
     padding-right: 30px;
     justify-content: center;
@@ -136,7 +122,8 @@ transition: opacity 0.6s ease-in;
 }
 
 .card h3 {
-    font-size: 4vw;
+    padding-top: 20px;
+    font-size: 3.2vw;
     font-weight: 700;
     background-image: radial-gradient(circle at 100% 60%, var(--cor-principal), var(--cor-secundaria) 20%, var(--cor-principal) 88%, #ecedef 165%, #f0eff0 165%);
     -webkit-background-clip: text;
@@ -145,6 +132,7 @@ transition: opacity 0.6s ease-in;
 
 
 .card p{
+    padding-bottom: 20px;
     font-size: var(--font-size-p);
     font-weight: 600;
     font-style: normal;
@@ -154,7 +142,24 @@ transition: opacity 0.6s ease-in;
     text-align: justify;
 }
 
-/* display: flex;
-  
-  
-  transition: .4s ease-in-out; */
+@media (max-width: 1360px){
+    .detalhe p{
+        width: 250px;
+    }
+    .skills_item{
+        padding: 20px 82px 20px 20px;
+
+    }
+    .skills_item  p{
+        width: 440px;
+    }
+    .foto_marketing img{
+        height: 610px;
+    }
+    .card{
+        width: 27vw;
+    }
+    .card h3 {
+        font-size: 3.4vw;
+    }
+}

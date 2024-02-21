@@ -1,7 +1,38 @@
-import React from 'react';
+import React, {useEffect} from 'react';
+import ScrollReveal from 'scrollreveal';
+
 import './Descricao.css';
 
+
 const Descricao = () => {
+
+    useEffect(() => {
+        const sr = ScrollReveal();
+    
+        sr.reveal('.detalhe, .skills_item', {
+          origin: 'bottom',
+          distance: '20px',
+          duration: 2000,
+          delay: 0,
+          opacity: 0,
+          easing: 'cubic-bezier(0.5, 0, 0, 1)',
+          mobile: true,
+          reset: false,
+          viewFactor: 0.2,
+        });
+        sr.reveal('.foto_marketing', {
+            origin: 'left',
+            distance: '20px',
+            duration: 3000,
+            delay: 0,
+            opacity: 0,
+            easing: 'cubic-bezier(0.5, 0, 0, 1)',
+            mobile: true,
+            reset: false,
+            viewFactor: 0.2,
+        });
+      }, []);
+
     return (
       <div className="container_descricao">
         <div className="texto_descricao"> 
@@ -53,8 +84,8 @@ const Descricao = () => {
                 <p>Lorem ipsum dolor sit amet, consectet adipiscing elit.</p>
             </div>
             <div className="card">
-                <h3>5 NO MEC</h3>
-                <p>Lorem asd asdas ipsum dolor sit amet adipiscing elit.</p>
+                <h3>Nota 10</h3>
+                <p>Lorem asd asdas ipsum dolor sit adipiscing elit.</p>
             </div>
         </div>
       </div>  
