@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
 :root{
+    /* cores */
     --cor-principal: #4E1D9A;
     --cor-secundaria: #AA7BE9;
     --cor-branco: #FFFFFF;
@@ -8,12 +9,12 @@
     --cor-cinza: #F0F2F3;
     --cor-preto: #000000;
     --cor-azul-escuro: #00A3C8;
-   
    /* font */
     --font : 'Poppins', sans-serif;
     --font-size-p: 1.1vw;
     --font-size-h1: 3.2vw;
     --font-height-p: 400;
+    /* Estilizacao padrao */
     --padding: 0 8vh;
     --borde-radius: 8px
 }
