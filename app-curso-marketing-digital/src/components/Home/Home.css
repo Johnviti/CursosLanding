@@ -41,8 +41,8 @@
 
 .texto_home p{
     margin-top: 10px;
-    font-size: 1.1vw;
-    font-weight: 400;
+    font-size: var(--font-size-p);
+    font-weight: var(--font-height-p);
     font-style: normal;
     line-height: 150%;
     letter-spacing: 0.3px;

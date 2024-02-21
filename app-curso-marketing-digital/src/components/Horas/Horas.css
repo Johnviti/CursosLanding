@@ -1,0 +1,28 @@
+.foto_background{
+    width: 100%;
+    height: 600px;
+    background-color: var(--cor-secundaria);
+    clip-path: polygon(0 0, 100% 0, 100% 37%, 0 77%);
+    position: absolute;
+}
+
+
+.container_horas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.conteudo_horas {
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    height: 100%;
+    padding: var(--padding);
+    gap: 10px;
+    z-index: 100;
+}
+
+
