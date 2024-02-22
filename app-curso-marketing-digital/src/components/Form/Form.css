@@ -76,7 +76,7 @@
     color: var(--cor-branco);
     font-size: 2vw;
     font-weight: 600;
-    width: 450px;
+    width: 400px;
     font-style: normal;
     line-height: 150%;
     letter-spacing: 0.3px;
@@ -88,12 +88,19 @@
     font-size: 1vw;
     font-weight: 600;
     margin-top: 10px;
-    width: 450px;
+    width: 500px;
     font-style: normal;
     line-height: 150%;
     letter-spacing: 0.3px;
     overflow: hidden;
     text-align: justify;
+}
+.container_texto_animation{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
 }
 .grupo_input{
     display: flex;
@@ -101,7 +108,7 @@
     align-items: center;
     justify-content: center;
     margin-top: 20px;
-    width: 450px;
+    width: 500px;
     gap: 10px;
 }
 .input {
@@ -163,7 +170,11 @@
     color: var(--cor-branco);
     cursor: pointer;
 }
-
+.lottie{
+    position: absolute;
+    padding-bottom: 380px;
+    padding-left: 509px;
+}
 
 @media (max-width: 1360px){
     .informacao_form .texto h1{
