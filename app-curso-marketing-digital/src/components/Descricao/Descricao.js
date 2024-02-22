@@ -1,5 +1,9 @@
 import React, {useEffect} from 'react';
 import ScrollReveal from 'scrollreveal';
+import foto_marketing from '../../assets/img/foto_marketing.png';
+import item1 from '../../assets/img/item1.png';
+import item2 from '../../assets/img/item2.png';
+import item3 from '../../assets/img/item3.png';
 
 import './Descricao.css';
 
@@ -54,21 +58,21 @@ const Descricao = () => {
         </div> 
         <div className="container_descricao_marketing">
             <div className="foto_marketing">
-                <img src="https://via.placeholder.com/600x700" alt="Imagem de um computador"></img>
+                <img src={foto_marketing} alt="Imagem de um computador"></img>
             </div>
             <div className="skills_curso">
                 <div className="skills_item">
-                    <img src="https://via.placeholder.com/150" alt="Imagem de um computador"></img>
+                    <img src={item1} alt="Imagem de um computador"></img>
                     <h2>Marketing Digital</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ullamcorper elit sed metus tincidunt, sed commodo velit posuere.</p>
                 </div>
                 <div className="skills_item">
-                    <img src="https://via.placeholder.com/150" alt="Imagem de um computador"></img>
+                    <img src={item2} alt="Imagem de um computador"></img>
                     <h2>Marketing Digital</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ullamcorper elit sed metus tincidunt, sed commodo velit posuere.</p>
                 </div>
                 <div className="skills_item">
-                    <img src="https://via.placeholder.com/150" alt="Imagem de um computador"></img>
+                    <img src={item3} alt="Imagem de um computador"></img>
                     <h2>Marketing Digital</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ullamcorper elit sed metus tincidunt, sed commodo velit posuere.</p>
                 </div>

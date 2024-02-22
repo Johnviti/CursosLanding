@@ -1,6 +1,5 @@
 import React, { useRef, useState } from 'react';
 import { Canvas, useFrame } from '@react-three/fiber';
-import { createRoot } from 'react-dom/client';
 
 function Box(props) {
   const ref = useRef();

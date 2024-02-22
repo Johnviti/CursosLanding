@@ -40,7 +40,7 @@
 }
 .grupo_links{
     display: flex;
-    gap: 50px;
+    gap: 30px;
     align-items: center;
     justify-content: center;
 }

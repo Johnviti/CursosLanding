@@ -37,6 +37,7 @@
 .detalhe p{
     font-size: var(--font-size-p);
     font-weight: 500;
+    color: var(--cor-secundaria);
     font-style: normal;
     line-height: 150%;
     letter-spacing: 0.3px;
@@ -55,6 +56,7 @@
     border-radius: var(--borde-radius);
     object-fit: cover;
     height: 765px;
+    width: 600px;
 }
 
 .skills_curso{
