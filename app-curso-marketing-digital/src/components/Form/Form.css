@@ -203,14 +203,8 @@
         font-size: 1.2vw;
         width: 400px;
     }
-    .grupo_input{
-        width: 400px;
-    }
     .input input {
         width: 100%;
-    }
-    .enviar{
-        width: 350px;
     }
     .lottie{
         position: absolute;
