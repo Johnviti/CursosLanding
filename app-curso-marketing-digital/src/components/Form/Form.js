@@ -1,7 +1,7 @@
 import React from 'react';
 import './Form.css';
 import Lottie from 'react-lottie';
-import animationData from './animation/Animation.json';
+import animationData from './animation/animation.json';
 import animationDAtaDino from './animation/AnimationDino.json';
 import animationSocialMedia from './animation/AnimationSocialMedia.json';
 
