@@ -1,11 +1,11 @@
 import React from 'react';
 import './Home.css';
 import homeImagem from '../../assets/img/Img-home2.png';
-import Cena from './Cena';
+import Cena from './3D/Cena';
 
 const Home = () => {
   return (
-    <div className="home">
+    <section className="home">
       <div className="conteudo_home">
         <div className="texto_home">
           <h1>Acelere Sua carreira<br></br> Faça Marketing Digital!</h1>
@@ -21,7 +21,7 @@ const Home = () => {
       <div className="conteudo_imagem">
         <img src={homeImagem} alt='Logo Andrade'></img>
       </div>
-    </div>
+    </section>
   );
 };
 

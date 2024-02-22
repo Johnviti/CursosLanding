@@ -4,7 +4,7 @@ import logo from '../../assets/img/logo.png';
 
 const Navbar = () => {
   return (
-      <nav className="navbar">
+      <header className="navbar">
           <div className="conteudo_navbar">
             <a href="/" className="logo_navbar"><img src={logo} alt='Logo Andrade'></img> AndradeMarketing</a>
             <ul className="list_navbar">
@@ -23,7 +23,7 @@ const Navbar = () => {
             </ul>
           </div>
           <a href="/contact" className="button_navbar">Inscreva-se</a>
-      </nav>
+      </header>
     );
   };
 

@@ -20,7 +20,7 @@ const Descricao = () => {
           reset: false,
           viewFactor: 0.2,
         });
-        sr.reveal('.foto_marketing', {
+        sr.reveal('.foto_marketing, .card', {
             origin: 'left',
             distance: '20px',
             duration: 3000,
@@ -34,7 +34,7 @@ const Descricao = () => {
       }, []);
 
     return (
-      <div className="container_descricao" id='container_descricao'>
+      <section className="container_descricao" id='container_descricao'>
         <div className="texto_descricao"> 
             <h1>VOCÊ VAI APRENDER AINDA MAIS SOBRE</h1> 
         </div>
@@ -88,7 +88,7 @@ const Descricao = () => {
                 <p>Lorem asd asdas ipsum dolor sit adipiscing elit.</p>
             </div>
         </div>
-      </div>  
+      </section>  
     );
   };
 
