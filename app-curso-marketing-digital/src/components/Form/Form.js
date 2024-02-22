@@ -1,34 +1,49 @@
-import React, {useState} from 'react';
+import React from 'react';
 import './Form.css';
 import Lottie from 'react-lottie';
 import animationData from './animation/Animation.json';
 import animationDAtaDino from './animation/AnimationDino.json';
+import animationSocialMedia from './animation/AnimationSocialMedia.json';
 
-import logo from '../../assets/img/logo.png';
 
 const Form = () => {
-    const [input, setInput] = useState('');
     return (
       <div className="container_form">
-        <div className="informacao_form">
+        <div className="background_form">
             {/* <a href="/" className='logo_Andrade'><img src={logo} alt='Logo Andrade'></img></a> */}
-            <div className="texto">
-                <h1>APRENDA O MARKETING E EVOLUA SUA MENTE</h1>
-                <p>Lorem ipsum dolor sit amet. Nullam ullamco elit sed metus tincidunt, sed commodo velit posuere.</p>
-            </div>
-            <div className="lottie">
-                <Lottie 
-                    options={{
-                        loop: true,
-                        autoplay: true,
-                        animationData: animationData,
-                        rendererSettings: {
-                            preserveAspectRatio: 'xMidYMid slice'
-                        }
-                    }}
-                    height={200}
-                    width={200}
-                />
+            <div className="informacao_conteudo">
+                <div className="texto">
+                    <h1>APRENDA O MARKETING E EVOLUA SUA MENTE</h1>
+                    <p>Lorem ipsum dolor sit amet. Nullam ullamco elit sed metus tincidunt, sed commodo velit posuere.</p>
+                </div>
+                <div className="lottieSocialMedia">
+                    <Lottie
+                        options={{
+                            loop: true,
+                            autoplay: true,
+                            animationData: animationSocialMedia,
+                            rendererSettings: {
+                                preserveAspectRatio: 'xMidYMid slice'
+                            }
+                        }}
+                        height={225}
+                        width={360}
+                    />
+                </div>            
+                <div className="lottie">
+                    <Lottie 
+                        options={{
+                            loop: true,
+                            autoplay: true,
+                            animationData: animationData,
+                            rendererSettings: {
+                                preserveAspectRatio: 'xMidYMid slice'
+                            }
+                        }}
+                        height={200}
+                        width={200}
+                    />
+                </div>
             </div>
         </div> 
         <div className="conteudo_form">

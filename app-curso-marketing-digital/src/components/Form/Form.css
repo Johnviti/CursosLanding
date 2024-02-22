@@ -14,19 +14,21 @@
     width: 80px;
     object-fit:contain;
 }
-.informacao_form{
+.background_form{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 50%;
-    background-color: var(--cor-principal);
+    background-image: url("../../assets/img/background-form.png");
+    background-size: cover;
     position: relative;
 }
-.informacao_form .texto{
+.background_form .texto{
     padding: var(--padding);
+    z-index: 10;
 }
-.informacao_form .texto h1{
+.background_form .texto h1{
     font-size: 2.1vw;
     color: var(--cor-branco);
     margin-bottom: 20px;
@@ -36,7 +38,7 @@
     letter-spacing: 0.3px;
     overflow: hidden;
 }
-.informacao_form .texto p{
+.background_form .texto p{
     font-size: 1.1vw;
     font-weight: 600;
     color: var(--cor-secundaria);
@@ -172,16 +174,24 @@
 }
 .lottie{
     position: absolute;
-    padding-bottom: 380px;
-    padding-left: 509px;
+    right: 10%;
+    top: 10%;
 }
-
+.lottieSocialMedia{
+    margin-top: 10px;
+}
+.informacao_conteudo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 @media (max-width: 1360px){
-    .informacao_form .texto h1{
+    .background_form .texto h1{
         font-size: 2.3vw;
         width: 400px;
     }
-    .informacao_form .texto p{
+    .background_form .texto p{
         font-size: 1.2vw;
         width: 400px;
     }
@@ -202,5 +212,16 @@
     .enviar{
         width: 350px;
     }
-    
+    .lottie{
+        position: absolute;
+        top: 10%;
+        right: 0;
+    }
+    /* .lottieSocialMedia{
+        position: absolute;
+    } */
+    .lottieSocialMedia > div{
+        width: 250px !important;
+        height: 150px !important;
+    }
 }
