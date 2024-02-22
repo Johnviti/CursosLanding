@@ -8,7 +8,7 @@ import animationSocialMedia from './animation/AnimationSocialMedia.json';
 
 const Form = () => {
     return (
-      <div className="container_form">
+      <div className="container_form" id='container_form'>
         <div className="background_form">
             {/* <a href="/" className='logo_Andrade'><img src={logo} alt='Logo Andrade'></img></a> */}
             <div className="informacao_conteudo">

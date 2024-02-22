@@ -3,7 +3,7 @@ import './Horas.css';
 
 const Horas = () => {
     return (
-        <div className="container_horas">
+        <div className="container_horas" id='container_horas'>
             <div className="foto_background"></div>
             <div className="conteudo_horas">
                 <div className="social_links">

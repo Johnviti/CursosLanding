@@ -34,7 +34,7 @@ const Descricao = () => {
       }, []);
 
     return (
-      <div className="container_descricao">
+      <div className="container_descricao" id='container_descricao'>
         <div className="texto_descricao"> 
             <h1>VOCÊ VAI APRENDER AINDA MAIS SOBRE</h1> 
         </div>
