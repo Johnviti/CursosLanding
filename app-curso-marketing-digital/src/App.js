@@ -4,6 +4,7 @@ import MainLayout from './layouts/MainLayout';
 import Home from './components/Home/Home';
 import Descricao from './components/Descricao/Descricao';
 import Horas from './components/Horas/Horas';
+import Form from './components/Form/Form';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Home/>
         <Descricao/>
         <Horas/>
+        <Form/>
       </MainLayout>
   );
 }
