@@ -11,7 +11,7 @@ Desafio Front-end/Design UI/UX   Prototipar e desenvolver uma landing page volta
 - HTML
 - CSS
 - JavaScript
-- Figma
+- Figma.
 
 ## Como Executar o Programa
 
