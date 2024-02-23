@@ -19,3 +19,4 @@ Desafio Front-end/Design UI/UX   Prototipar e desenvolver uma landing page volta
 2. Entre na pasta: `cd .\app-curso-marketing-digital\`
 2. Instale as dependências: `npm install`
 3. Execute o programa: `npm start`
+
