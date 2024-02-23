@@ -75,7 +75,7 @@ const Form = () => {
                 <div className="grupo_input">
                     <InputPadrao value="email" type="email" />
                     <InputPadrao value="nome" type="text" />
-                    <InputPadrao value="telefone" type="number" />
+                    <InputPadrao value="telefone" type="text" />
                     <div className="grupo_button">
                         <button className='enviar'>Enviar</button>
                     </div>

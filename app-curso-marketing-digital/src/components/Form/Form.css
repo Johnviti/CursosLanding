@@ -164,7 +164,7 @@
     font-size: 16px;
     padding: 1rem;
     text-align: center;
-    color: rgba(17, 24, 39, 1);
+    color: var(--cor-preto);
     border: none;
     border-radius: 20px;
     font-weight: 600;

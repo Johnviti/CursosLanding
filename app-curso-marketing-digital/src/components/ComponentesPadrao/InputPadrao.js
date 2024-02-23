@@ -1,10 +1,15 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 
 const InputPadrao = ({ value, type }) => {
     const inputRef = useRef(null);
-  
+    const [inputValue, setInputValue] = useState("");
+
     const handleInputFocus = () => {
       inputRef.current.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    };
+
+    const handleInputChange = (event) => {
+      setInputValue(event.target.value); 
     };
 
     return (
@@ -15,7 +20,8 @@ const InputPadrao = ({ value, type }) => {
         type={type}
         required 
         name={value} 
-        value=""
+        value={inputValue}
+        onChange={handleInputChange}
         />
         <label htmlFor={value}>{value}</label>
     </div>
