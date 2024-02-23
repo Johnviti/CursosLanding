@@ -141,6 +141,7 @@
     pointer-events: none;
     transition: all 0.3s ease;
     color: var(--cor-branco);
+    text-transform: uppercase;
 }
   
 .input :is(input:focus, input:valid)~label {

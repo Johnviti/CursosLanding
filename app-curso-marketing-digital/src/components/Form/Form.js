@@ -1,18 +1,13 @@
-import React, { useRef } from 'react';
+import React from 'react';
 import './Form.css';
 import Lottie from 'react-lottie';
 import animationData from './animation/animation.json';
 import animationDAtaDino from './animation/AnimationDino.json';
 import animationSocialMedia from './animation/AnimationSocialMedia.json';
 
+import InputPadrao from '../ComponentesPadrao/InputPadrao';
 
 const Form = () => {
-    const inputRef = useRef(null);
-
-    const handleInputFocus = () => {
-        inputRef.current.scrollIntoView({ behavior: 'smooth', block: 'start' });
-      };
-
     return (
       <section className="container_form" id='container_form'>
         <div className="background_form">
@@ -78,39 +73,9 @@ const Form = () => {
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ullamcorper elit sed metus tincidunt.</p>
                 </div>
                 <div className="grupo_input">
-                    <div className="input">
-                        <input 
-                        ref={inputRef}
-                        onFocus={handleInputFocus}
-                        type="text"
-                        required 
-                        name="cep" 
-                        value=""
-                        />
-                        <label for="cep">CEP</label>
-                    </div>
-                    <div className="input">
-                        <input 
-                        ref={inputRef}
-                        onFocus={handleInputFocus}
-                        type="text"
-                        required 
-                        name="nome" 
-                        value=""
-                        />
-                        <label for="nome">NOME</label>
-                    </div>
-                    <div className="input">
-                        <input 
-                        ref={inputRef}
-                        onFocus={handleInputFocus}
-                        type="text"
-                        required 
-                        name="telefone" 
-                        value=""
-                        />
-                        <label for="telefone">TELEFONE</label>
-                    </div>
+                    <InputPadrao value="email" type="email" />
+                    <InputPadrao value="nome" type="text" />
+                    <InputPadrao value="telefone" type="number" />
                     <div className="grupo_button">
                         <button className='enviar'>Enviar</button>
                     </div>
