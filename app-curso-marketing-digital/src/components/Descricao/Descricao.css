@@ -49,7 +49,7 @@
     display: flex;
     flex-direction: row;
     gap: 5vw;
-    padding: var(--padding);
+    padding: 4vw;
 }
 
 .foto_marketing img{
@@ -147,6 +147,9 @@
 @media (max-width: 1360px){
     .detalhe p{
         width: 250px;
+    }
+    .container_descricao_marketing{
+        padding: 4vw;
     }
     .skills_item{
         padding: 20px 82px 20px 20px;
