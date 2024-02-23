@@ -161,12 +161,14 @@
     display: block;
     width: 100%;
     background-color: var(--cor-secundaria);
-    padding: 0.75rem;
+    font-size: 16px;
+    padding: 1rem;
     text-align: center;
     color: rgba(17, 24, 39, 1);
     border: none;
     border-radius: 20px;
     font-weight: 600;
+    text-transform: uppercase;
 }
 .enviar:hover{
     background-color: var(--cor-principal);
