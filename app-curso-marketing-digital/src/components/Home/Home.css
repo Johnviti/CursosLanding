@@ -54,7 +54,7 @@
     width: 40vw;
 }
 
-.btn-home{
+.button_home{
     padding: 2.5vh 5vw;
     font-size: 20px;
     font-weight: 600;
@@ -69,25 +69,24 @@
     cursor: pointer;
 }
 
-.btn-home:hover{
+.button_home:hover{
     background-color: var(--cor-azul-escuro);
     color: var(--cor-branco);
 }
 
-.canva-3d {
+.canva_3d {
     position: absolute;
     bottom: 0;
     left: 650px;
     right: 0;
 }
 
-
 @media (max-width: 1360px){
     .home{
         gap: 40px;
         padding: 15vw 8vw 0vw 8vw;
     }
-    .btn-home{
+    .button_home{
         padding: 2.5vh 5vw;
         font-size: 20px;
         font-weight: 600;
@@ -103,7 +102,43 @@
         font-size: 1.2vw;
         width: 500px;
     }
-    .canva-3d {
+    .canva_3d {
         left: 500px;
+    }
+}
+
+
+
+
+@media (max-width: 768px){
+    .home{
+        flex-direction: column;
+    }
+    .conteudo_home{
+        padding-top: 150px;
+    }
+    .texto_home h1{
+        font-size: 7vw;
+    }
+    .texto_home p{
+        width: 90%;
+        font-size: 2.5vw;
+        font-weight: 600;
+    }
+    .canva_3d{
+        top: 30%;
+        left: 70%;
+    }
+    .canva_3d > div{
+        width: 30vw !important;
+        height: 30vh !important;
+    }
+    .button_home{
+        padding: 2vh 5vw;
+        font-size: 14px;
+        font-weight: 650;
+    }
+    .conteudo_imagem img{
+        width: 80vw;
     }
 }

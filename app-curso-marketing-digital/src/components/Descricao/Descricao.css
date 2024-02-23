@@ -165,3 +165,129 @@
         font-size: 3.4vw;
     }
 }
+
+/* @media (max-width: 1024px){
+    .container_descricao_marketing{
+        flex-direction: column;
+        gap: 10vh;
+    }
+    .foto_marketing img{
+        width: 100%;
+    }
+    .skills_curso{
+        align-items: center;
+    }
+    .skills_item{
+        padding: 20px 20px 20px 20px;
+        align-items: center;
+    }
+    .skills_item h2{
+        width: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+    .skills_item p{
+        width: 100%;
+        overflow: hidden;
+    }
+    .conteudo_card{
+        flex-direction: column;
+        gap: 10vh;
+    }
+    .card{
+        width: 70vw;
+    }
+    .card h3 {
+        font-size: 5vw;
+    }
+    .card p{
+        width: 100%;
+        overflow: hidden;
+    }
+} */
+
+@media(max-width: 768px){
+    .container_descricao{
+        align-items: normal;
+    }
+    .texto_descricao{
+        margin-top: 8vh;
+    }
+    .conteudo_detalhe{
+        margin: 4vh 0;
+        padding-left: 30px;
+    }
+    .texto_descricao h1{
+        font-size: 3.2vw;
+    }
+    .detalhe img{
+        width: 15vw;
+        height: 15vw;
+    }
+    .detalhe p{
+        font-size: var(--font-size-p-mobile);
+        font-weight: 500;
+        width: 150px;
+        overflow: hidden;
+    }
+    .container_descricao_marketing{
+        flex-direction: column;
+        justify-content: center;
+        gap: 4vh;
+        padding: 0 6vw;
+    }
+    .foto_marketing img{
+        width: 100%;
+        height: 60vh;
+        object-fit: cover;
+    } 
+    .skills_curso{
+        align-items: center;
+        gap: 2vh;
+    }
+    .skills_item{
+        padding: 20px;
+    }
+    .skills_item h2{
+        width: 100%;
+        font-size: 6vw;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+    .skills_item p{
+        width: 100%;
+        font-size: var(--font-size-p-mobile);
+        font-weight: 600;
+        overflow: hidden;
+    }
+    .conteudo_card{
+        display: grid;
+        grid-template-rows: repeat(2, 1fr);
+        justify-items: center;
+        align-items: center;
+        gap: 1vh;
+        margin: 2vh 0 4vh;
+        padding: 0 6vw;
+    }
+    .card{
+        padding: 10px;
+        width: 40vw;
+    }
+    .card:nth-child(1){
+        width: 80vw;
+        grid-column: 1 / span 2;
+    }
+    .card:nth-child(1) h3{
+        font-size: 10vw;
+    }
+    .card h3 {
+        font-size: 7vw;
+        padding-top: 0;
+    }
+    .card p{
+        font-size: var(--font-size-p-mobile);
+        overflow: hidden;
+        width: auto;
+        padding: 0;
+    }
+}

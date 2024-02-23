@@ -126,7 +126,7 @@
     border: 2px solid var(--cor-secundaria);
     background-color: var(--cor-preto);
     color: var(--cor-branco);
-    border-radius: 20px;
+    border-radius: 8px;
     width: 100%;
     box-shadow: 1px 3px 8px rgba(0,0,0,0.2);
 }
@@ -218,4 +218,81 @@
         width: 250px !important;
         height: 150px !important;
     }
+}
+
+@media(max-width: 768px){
+    .container_form{
+        flex-direction: column;
+        height: 100%;
+    }
+    .background_form{
+        width: 100vw;
+        height: 50%;
+    }
+    .background_form .texto {
+        padding: 0;
+        width: 100%;
+    }
+    .informacao_conteudo {
+        padding: 120px 5.5vw 0px 5.5vw;
+    }
+    .background_form .texto h1{
+        font-size: 7vw;
+        padding: 0 2vw;
+        width: 100%;
+    }
+    .background_form .texto p{
+        font-size: 4vw;
+        width: 100%;
+        text-align: justify;
+    }
+    .lottie, .lottie > div{
+        width: 100px !important;
+        height: 100px !important;
+    }
+    .lottieSocialMedia , .lottieSocialMedia > div{
+        width: 150px !important;
+        height: 150px !important;
+    }
+    .lottie{
+        position: absolute;
+        top: 4%;
+        right: 6%;
+    }
+    .conteudo_form{
+        width: 100vw;
+    }
+    .container_texto_animation {
+        justify-content: flex-start;
+    }
+    .texto_formulario_container{
+        padding-top: 10px;
+    }
+    .conteudo_principal{
+        width: 90vw;
+        padding: 10vw 5vw;
+    }
+    .texto_form h1{
+        font-size: 6vw;
+        width: 100%;
+    }
+    .texto_form p{
+        font-size: 3.5vw;
+        width: 100%;
+    }
+    .lottieDivo, .lottieDivo > div{
+        width: 55px !important;
+        height: 55px !important;
+    }
+    .grupo_input{
+        margin-top: 10px;
+        width: 100% !important;
+        gap: 5px;
+    }
+    .input input {
+        border-radius: 8px;
+        width: 100%;
+    }
+
+
 }

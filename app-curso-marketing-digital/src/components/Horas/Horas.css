@@ -117,4 +117,44 @@
     }
 }
 
-
+@media(max-width: 768px){
+    /* width: 100%;
+    height: 600px; */
+    .container_horas{
+        height: 100%;
+        padding-bottom: 28px;
+    }
+    .foto_background{
+        width: 100vw;
+        height: 200px;
+        background-size: contain;
+    }
+    .conteudo_horas{
+        padding: 130px 5vw 0 5vw;
+        gap: 30px;
+        flex-direction: row;
+    }
+    .social_links{
+        padding-left: 0;
+        gap: 8px;
+        margin-top: 0px;
+    }
+    .texto_horas h1{
+        font-size: 6vw;
+    }
+    .texto_horas p{
+        font-size: 4vw;
+    }
+    .texto_links p{
+        width: 40vw;
+        font-size: 2vw;
+        font-weight: 600;
+    }  
+    .grupo_links a>img {
+        width: 30px;
+        height: 30px; 
+    }
+    .grupo_links{
+        gap: 10px;
+    }
+}

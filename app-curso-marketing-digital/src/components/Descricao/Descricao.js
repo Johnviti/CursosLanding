@@ -85,7 +85,7 @@ const Descricao = () => {
             </div>
             <div className="card">
                 <h3>57 anos</h3>
-                <p>Lorem ipsum dolor sit amet, consectet adipiscing elit.</p>
+                <p>Lorem ipsum dolor sit amet, consectet adipis. </p>
             </div>
             <div className="card">
                 <h3>Nota 10</h3>
