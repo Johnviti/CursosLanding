@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/app-curso-marketing-digital/static/css/main.66d85a66.css",
-    "main.js": "/app-curso-marketing-digital/static/js/main.30383f2e.js",
-    "static/media/wallpapper.png": "/app-curso-marketing-digital/static/media/wallpapper.7d4519d0ab4bed6bdae4.png",
-    "static/media/background-form.png": "/app-curso-marketing-digital/static/media/background-form.aad88582e2c5ec67b7f2.png",
-    "static/media/foto_marketing.png": "/app-curso-marketing-digital/static/media/foto_marketing.52d45cd659c45139bcf5.png",
-    "static/media/Img-home2.png": "/app-curso-marketing-digital/static/media/Img-home2.60c8bdaf988444b0277d.png",
-    "static/media/ico2.png": "/app-curso-marketing-digital/static/media/ico2.5ba121f9a16358b8195a.png",
-    "static/media/ico3.png": "/app-curso-marketing-digital/static/media/ico3.5629320f6cb81be58421.png",
-    "static/media/ico1.png": "/app-curso-marketing-digital/static/media/ico1.e9df2737740510b09d59.png",
-    "static/media/ico4.png": "/app-curso-marketing-digital/static/media/ico4.9fb0eef8279822310a11.png",
-    "static/media/item2.png": "/app-curso-marketing-digital/static/media/item2.02e6862e5aeeec5ca5b3.png",
-    "static/media/item1.png": "/app-curso-marketing-digital/static/media/item1.467cee08cf7ede1b7d17.png",
-    "static/media/detalhe3.png": "/app-curso-marketing-digital/static/media/detalhe3.aec107ff432041f9928d.png",
-    "static/media/item3.png": "/app-curso-marketing-digital/static/media/item3.ed3d1e340bf4eb1d62b4.png",
-    "index.html": "/app-curso-marketing-digital/index.html",
-    "main.66d85a66.css.map": "/app-curso-marketing-digital/static/css/main.66d85a66.css.map",
-    "main.30383f2e.js.map": "/app-curso-marketing-digital/static/js/main.30383f2e.js.map"
+    "main.css": "/CursosLanding/static/css/main.87db0b97.css",
+    "main.js": "/CursosLanding/static/js/main.7fc94eaf.js",
+    "static/media/wallpapper.png": "/CursosLanding/static/media/wallpapper.7d4519d0ab4bed6bdae4.png",
+    "static/media/background-form.png": "/CursosLanding/static/media/background-form.aad88582e2c5ec67b7f2.png",
+    "static/media/foto_marketing.png": "/CursosLanding/static/media/foto_marketing.52d45cd659c45139bcf5.png",
+    "static/media/Img-home2.png": "/CursosLanding/static/media/Img-home2.60c8bdaf988444b0277d.png",
+    "static/media/ico2.png": "/CursosLanding/static/media/ico2.5ba121f9a16358b8195a.png",
+    "static/media/ico3.png": "/CursosLanding/static/media/ico3.5629320f6cb81be58421.png",
+    "static/media/ico1.png": "/CursosLanding/static/media/ico1.e9df2737740510b09d59.png",
+    "static/media/ico4.png": "/CursosLanding/static/media/ico4.9fb0eef8279822310a11.png",
+    "static/media/item2.png": "/CursosLanding/static/media/item2.02e6862e5aeeec5ca5b3.png",
+    "static/media/item1.png": "/CursosLanding/static/media/item1.467cee08cf7ede1b7d17.png",
+    "static/media/detalhe3.png": "/CursosLanding/static/media/detalhe3.aec107ff432041f9928d.png",
+    "static/media/item3.png": "/CursosLanding/static/media/item3.ed3d1e340bf4eb1d62b4.png",
+    "index.html": "/CursosLanding/index.html",
+    "main.87db0b97.css.map": "/CursosLanding/static/css/main.87db0b97.css.map",
+    "main.7fc94eaf.js.map": "/CursosLanding/static/js/main.7fc94eaf.js.map"
   },
   "entrypoints": [
-    "static/css/main.66d85a66.css",
-    "static/js/main.30383f2e.js"
+    "static/css/main.87db0b97.css",
+    "static/js/main.7fc94eaf.js"
   ]
 }
