@@ -1,6 +1,6 @@
 {
   "homepage": "https://johnviti.github.io/CursosLanding",
-  "name": "app-curso-marketing-digital",
+  "name": "CursosLanding",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
