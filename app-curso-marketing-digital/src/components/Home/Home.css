@@ -76,10 +76,25 @@
 
 .canva_3d {
     position: absolute;
-    bottom: 0;
-    left: 650px;
-    right: 0;
+    left: 38%;
+    top: 60%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
+.ico{
+    width: 25px;
+    height: 25px;
+}
+.button_ico{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    border: none;
+    background-color: transparent;
+    color: none;
+}
+
 
 @media (max-width: 1360px){
     .home{
@@ -126,12 +141,12 @@
         font-weight: 600;
     }
     .canva_3d{
-        top: 30%;
+        top: 38%;
         left: 70%;
     }
-    .canva_3d > div{
-        width: 30vw !important;
-        height: 30vh !important;
+    .canva3d, .canva_3d > div{
+        width: 100px !important;
+        height: 100px !important;
     }
     .button_home{
         padding: 2vh 5vw;
@@ -141,4 +156,5 @@
     .conteudo_imagem img{
         width: 80vw;
     }
+    
 }

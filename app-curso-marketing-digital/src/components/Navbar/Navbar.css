@@ -88,7 +88,9 @@
     }
 }
 
-
+.bars-menu{
+  display: none;
+}
 
 @media (max-width: 768px){
     .navbar {
@@ -113,7 +115,36 @@
       background: transparent;
       border: 0;
     }
+    .bars-menu{
+      display: block;
+    }
     .bar_menu:hover{
       color: var(--cor-secundaria);
+    }
+    .conteudo_navbar_mobile{
+      background-color: var(--cor-principal);
+      position: absolute;
+      padding: 15px 40px;
+      left: 0;
+      width: 100vw;
+    }
+    .list_navbar_mobile{
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+    }
+    .item_navbar_mobile{
+      font-size: 2.5vw;
+      text-decoration: none;
+      list-style: none;
+    }
+    .item_navbar_mobile a{
+      text-decoration: none;
+      color: var(--cor-branco);
+      border-bottom: 2px solid transparent;
+      transition: border-bottom-color 0.3s ease;
+    }
+    .item_navbar_mobile a:hover{
+      border-bottom-color: var(--cor-branco);
     }
 }

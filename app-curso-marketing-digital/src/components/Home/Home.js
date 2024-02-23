@@ -9,12 +9,9 @@ const Home = () => {
       <div className="conteudo_home">
         <div className="texto_home">
           <h1>Acelere Sua carreira<br></br> Faça Marketing Digital!</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ullamcorper elit sed metus tincidunt, sed commodo
-            velit posuere.</p>
-          <div className="canva_3d">
-            {/* Coracao 3D */}
-            <Cena />
-          </div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ullamcorper elit 
+            sed metus tincidunt, seddd <br></br> Clique na animacao para pausar ou continuar!!</p>
+          <Cena/>
         </div>
         <button className="button_home">Inscreva-se agora</button>
       </div>

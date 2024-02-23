@@ -1,13 +1,13 @@
 import React from 'react';
 import './Navbar.css';
 import logo from '../../assets/img/logo.png';
-import {BarsMenu} from '../ComponentesPadrao/BarsMenu';
+import BarsMenu from '../ComponentesPadrao/BarsMenu';
 
 const Navbar = () => {
   return (
       <header className="navbar">
           <BarsMenu/>
-          <div className="conteudo_navbar">
+          <nav className="conteudo_navbar">
             <a href="/" className="logo_navbar"><img src={logo} alt='Logo Andrade'></img> AndradeMarketing</a>
             <ul className="list_navbar">
               <li className="item_navbar">
@@ -23,7 +23,7 @@ const Navbar = () => {
                 <a href="#container_form" className="link_navbar">Formulário</a>
               </li>
             </ul>
-          </div>
+          </nav>
           <a href="/contact" className="button_navbar">Inscreva-se</a>
       </header>
     );

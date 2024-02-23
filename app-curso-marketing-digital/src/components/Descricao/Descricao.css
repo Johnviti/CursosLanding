@@ -174,21 +174,27 @@
         margin-top: 8vh;
     }
     .conteudo_detalhe{
-        margin: 4vh 0;
-        padding-left: 30px;
+        display: grid;
+        align-items: center;
+        gap: 4vh;
+        margin: 4vh 2vw 4vh 2vw;
+        padding: 0 6vw;
+    }
+    .detalhe p{
+        width: 80vw;
+        font-weight: 600;
+        font-size: 3.2vw;
+    }
+    .detalhe {
+        display: flex;
+        justify-content: center
     }
     .texto_descricao h1{
         font-size: 3.2vw;
     }
     .detalhe img{
-        width: 15vw;
-        height: 15vw;
-    }
-    .detalhe p{
-        font-size: var(--font-size-p-mobile);
-        font-weight: 500;
-        width: 150px;
-        overflow: hidden;
+        width: 10vw;
+        height: 10vw;
     }
     .container_descricao_marketing{
         flex-direction: column;
@@ -229,16 +235,16 @@
         margin: 2vh 0 4vh;
         padding: 0 6vw;
     }
-    .card{
-        padding: 10px;
-        width: 40vw;
-    }
     .card:nth-child(1){
         width: 80vw;
         grid-column: 1 / span 2;
     }
     .card:nth-child(1) h3{
         font-size: 10vw;
+    }
+    .card{
+        padding: 10px;
+        width: 40vw;
     }
     .card h3 {
         font-size: 7vw;
