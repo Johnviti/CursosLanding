@@ -7,7 +7,7 @@
 }
 
 .texto_descricao {
-  font-size: 0.8vw;
+  font-size: 1vw;
   font-weight: 500;
   color: var(--cor-principal);
   text-align: center;
@@ -165,46 +165,6 @@
         font-size: 3.4vw;
     }
 }
-
-/* @media (max-width: 1024px){
-    .container_descricao_marketing{
-        flex-direction: column;
-        gap: 10vh;
-    }
-    .foto_marketing img{
-        width: 100%;
-    }
-    .skills_curso{
-        align-items: center;
-    }
-    .skills_item{
-        padding: 20px 20px 20px 20px;
-        align-items: center;
-    }
-    .skills_item h2{
-        width: 100%;
-        white-space: nowrap;
-        overflow: hidden;
-    }
-    .skills_item p{
-        width: 100%;
-        overflow: hidden;
-    }
-    .conteudo_card{
-        flex-direction: column;
-        gap: 10vh;
-    }
-    .card{
-        width: 70vw;
-    }
-    .card h3 {
-        font-size: 5vw;
-    }
-    .card p{
-        width: 100%;
-        overflow: hidden;
-    }
-} */
 
 @media(max-width: 768px){
     .container_descricao{
