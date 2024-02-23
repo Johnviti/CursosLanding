@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import './Form.css';
 import Lottie from 'react-lottie';
 import animationData from './animation/animation.json';
@@ -7,6 +7,12 @@ import animationSocialMedia from './animation/AnimationSocialMedia.json';
 
 
 const Form = () => {
+    const inputRef = useRef(null);
+
+    const handleInputFocus = () => {
+        inputRef.current.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      };
+
     return (
       <section className="container_form" id='container_form'>
         <div className="background_form">
@@ -74,6 +80,8 @@ const Form = () => {
                 <div className="grupo_input">
                     <div className="input">
                         <input 
+                        ref={inputRef}
+                        onFocus={handleInputFocus}
                         type="text"
                         required 
                         name="cep" 
@@ -83,6 +91,8 @@ const Form = () => {
                     </div>
                     <div className="input">
                         <input 
+                        ref={inputRef}
+                        onFocus={handleInputFocus}
                         type="text"
                         required 
                         name="nome" 
@@ -92,6 +102,8 @@ const Form = () => {
                     </div>
                     <div className="input">
                         <input 
+                        ref={inputRef}
+                        onFocus={handleInputFocus}
                         type="text"
                         required 
                         name="telefone" 
