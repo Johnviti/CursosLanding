@@ -1,12 +1,17 @@
 import React, {useEffect} from 'react';
 import ScrollReveal from 'scrollreveal';
+import './Descricao.css';
+
 import foto_marketing from '../../assets/img/foto_marketing.png';
+import detalhe3 from '../../assets/img/detalhe3.png';
 import item1 from '../../assets/img/item1.png';
 import item2 from '../../assets/img/item2.png';
 import item3 from '../../assets/img/item3.png';
 
-import './Descricao.css';
 
+import Card from '../ComponentesPadrao/Card';
+import SkillItem from '../ComponentesPadrao/SkillsItem';
+import Detalhe from '../ComponentesPadrao/Detalhe';
 
 const Descricao = () => {
 
@@ -43,54 +48,48 @@ const Descricao = () => {
             <h1>VOCÊ VAI APRENDER AINDA MAIS SOBRE</h1> 
         </div>
         <div className="conteudo_detalhe">
-            <div className="detalhe">
-                <img src="https://via.placeholder.com/150" alt="Imagem de um computador"></img>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ullamcorper</p>
-            </div> 
-            <div className="detalhe">
-                <img src="https://via.placeholder.com/150" alt="Imagem de um computador"></img>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ullamcorper</p>
-            </div> 
-            <div className="detalhe">
-                <img src="https://via.placeholder.com/150" alt="Imagem de um computador"></img>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam</p>
-            </div> 
+            <Detalhe 
+                imagem={detalhe3} 
+                texto="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ullamcorper" 
+                descricao="Imagem de um computador"
+            />
+            <Detalhe 
+                imagem={detalhe3} 
+                texto="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ullamcorper" 
+                descricao="Imagem de um computador"
+            />
+            <Detalhe 
+                imagem={detalhe3}
+                texto="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam" 
+                descricao="Imagem de um computador"
+            />
         </div> 
         <div className="container_descricao_marketing">
             <div className="foto_marketing">
                 <img src={foto_marketing} alt="Imagem de um computador"></img>
             </div>
             <div className="skills_curso">
-                <div className="skills_item">
-                    <img src={item1} alt="Imagem de um computador"></img>
-                    <h2>Marketing Digital</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ullamcorper elit sed metus tincidunt, sed commodo velit posuere.</p>
-                </div>
-                <div className="skills_item">
-                    <img src={item2} alt="Imagem de um computador"></img>
-                    <h2>Marketing Digital</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ullamcorper elit sed metus tincidunt, sed commodo velit posuere.</p>
-                </div>
-                <div className="skills_item">
-                    <img src={item3} alt="Imagem de um computador"></img>
-                    <h2>Marketing Digital</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ullamcorper elit sed metus tincidunt, sed commodo velit posuere.</p>
-                </div>
+                <SkillItem 
+                    imagem={item1} 
+                    titulo="Marketing Digital" 
+                    texto="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ullamcorper elit sed metus tincidunt, sed commodo velit posuere." 
+                />
+                <SkillItem 
+                    imagem={item2} 
+                    titulo="Marketing Digital" 
+                    texto="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ullamcorper elit sed metus tincidunt, sed commodo velit posuere." 
+                />
+                <SkillItem 
+                    imagem={item3} 
+                    titulo="Marketing Digital" 
+                    texto="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ullamcorper elit sed metus tincidunt, sed commodo velit posuere." 
+                />
             </div>
         </div>
         <div className="conteudo_card">
-            <div className="card">
-                <h3>20 milhoes</h3>
-                <p>Lorem ipsum as dolor sit amet, asd adipiscing elit.</p>
-            </div>
-            <div className="card">
-                <h3>57 anos</h3>
-                <p>Lorem ipsum dolor sit amet, consectet adipis. </p>
-            </div>
-            <div className="card">
-                <h3>Nota 10</h3>
-                <p>Lorem asd asdas ipsum dolor sit adipiscing elit.</p>
-            </div>
+            <Card titulo="20 milhoes" texto="Lorem ipsum as dolor sit amet, asd adipiscing elit."/>
+            <Card titulo="57 anos" texto="Lorem ipsum dolor sit amet, consectet adipis."/>
+            <Card titulo="Nota 10" texto="Lorem asd asdas ipsum dolor sit adipiscing elit."/>
         </div>
       </section>  
     );
