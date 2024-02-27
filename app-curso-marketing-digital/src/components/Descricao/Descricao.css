@@ -49,14 +49,15 @@
     display: flex;
     flex-direction: row;
     gap: 5vw;
-    padding: var(--padding);
+    padding: 4vw;
+    max-width: 100vw;
 }
 
 .foto_marketing img{
     border-radius: var(--borde-radius);
     object-fit: cover;
     height: 765px;
-    width: 600px;
+    width: 46vw;
 }
 
 .skills_curso{
@@ -146,16 +147,21 @@
 
 @media (max-width: 1360px){
     .detalhe p{
-        width: 250px;
+        width: 18vw;
+    }
+    .container_descricao_marketing{
+        padding: 4vw;
     }
     .skills_item{
         padding: 20px 82px 20px 20px;
 
     }
-    .skills_item  p{
-        width: 440px;
+    .skills_item p{
+        width: 32vw;
     }
+    
     .foto_marketing img{
+        width: 45vw;
         height: 610px;
     }
     .card{

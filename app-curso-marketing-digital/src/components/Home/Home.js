@@ -25,7 +25,7 @@ const Home = () => {
             sed metus tincidunt, seddd <br></br> Clique na animacao para pausar ou continuar!!</p>
           <Cena/>
         </div>
-        <button className="button_home">Inscreva-se agora</button>
+        <a className="button_home" href="#container_form">Inscreva-se agora</a>
       </div>
       <div className="conteudo_imagem">
         <img src={homeImagem} alt='Logo Andrade'></img>
