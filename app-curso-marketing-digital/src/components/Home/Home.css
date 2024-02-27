@@ -141,7 +141,7 @@
     list-style: none;
     width: 20px;
     height: 20px;
-    background: rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.8);
     animation: animate 19s linear infinite;
 }
 .fundo_animado li:nth-child(0) {
@@ -247,6 +247,50 @@
 @media (max-width: 768px){
     .home{
         flex-direction: column;
+    }
+    .fundo_animado li {
+        width: 10px;
+        height: 10px;
+    }
+    .fundo_animado li:nth-child(0){
+        width: 100px;
+        height: 100px;
+    }
+    .fundo_animado li:nth-child(1){
+        width: 90px;
+        height: 90px;
+    }
+    .fundo_animado li:nth-child(2){
+        width: 75px;
+        height: 75px;
+    }
+    .fundo_animado li:nth-child(3){
+        width: 85px;
+        height: 85px;
+    }
+    .fundo_animado li:nth-child(4){
+        width: 65px;
+        height: 65px;
+    }
+    .fundo_animado li:nth-child(5){
+        width: 70px;
+        height: 70px;
+    }
+    .fundo_animado li:nth-child(6){
+        width: 80px;
+        height: 80px;
+    }
+    .fundo_animado li:nth-child(7){
+        width: 60px;
+        height: 60px;
+    }
+    .fundo_animado li:nth-child(8){
+        width: 50px;
+        height: 50px;
+    }
+    .fundo_animado li:nth-child(9){
+        width: 53px;
+        height: 53px;
     }
     .conteudo_home{
         padding-top: 150px;

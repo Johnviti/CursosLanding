@@ -3,7 +3,7 @@ import { Canvas, useLoader, useFrame } from '@react-three/fiber';
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader';
 
 const GLTFModel = ({ isPaused }) => {
-  const gltf = useLoader(GLTFLoader, './Models/scene.gltf');
+  const gltf = useLoader(GLTFLoader, `${process.env.PUBLIC_URL}/Models/scene.gltf`);
   const modelRef = useRef();
 
   const traverseAndSetColor = (object, objectName, color) => {
@@ -40,7 +40,7 @@ const Cena = () => {
   return (
     <div className="">
       <div className="canva_3d">
-        <Canvas camera={{ position: [0, 0, 10], near: 0.1, far: 100 }} onClick={handlePause}>>
+        <Canvas camera={{ position: [0, 0, 10], near: 0.1, far: 100 }} onClick={handlePause}>
           <ambientLight intensity={1} />
           <directionalLight intensity={5} position={[0, 0, 1]} />
           <GLTFModel isPaused={isPaused} />
