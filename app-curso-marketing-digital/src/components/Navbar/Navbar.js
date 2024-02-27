@@ -8,7 +8,7 @@ const Navbar = () => {
       <header className="navbar">
           <BarsMenu/>
           <nav className="conteudo_navbar">
-            <a href="/" className="logo_navbar"><img src={logo} alt='Logo Andrade'></img> AndradeMarketing</a>
+            <a href="/CursosLanding" className="logo_navbar"><img src={logo} alt='Logo Andrade'></img> AndradeMarketing</a>
             <ul className="list_navbar">
               <li className="item_navbar">
                 <a href="/" className="link_navbar">Início</a>
@@ -24,7 +24,7 @@ const Navbar = () => {
               </li>
             </ul>
           </nav>
-          <a href="/contact" className="button_navbar">Inscreva-se</a>
+          <a href="#container_form" className="button_navbar">Inscreva-se</a>
       </header>
     );
   };
