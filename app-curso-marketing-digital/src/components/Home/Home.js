@@ -6,6 +6,18 @@ import Cena from './3D/Cena';
 const Home = () => {
   return (
     <section className="home">
+      <ul className="fundo_animado">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
       <div className="conteudo_home">
         <div className="texto_home">
           <h1>Acelere Sua carreira<br></br> Faça Marketing Digital!</h1>
