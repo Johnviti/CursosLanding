@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/CursosLanding/static/css/main.d1307dfc.css",
+    "main.css": "/CursosLanding/static/css/main.659aa062.css",
     "main.js": "/CursosLanding/static/js/main.ba4bf126.js",
     "static/media/wallpapper.png": "/CursosLanding/static/media/wallpapper.7d4519d0ab4bed6bdae4.png",
     "static/media/background-form.png": "/CursosLanding/static/media/background-form.aad88582e2c5ec67b7f2.png",
@@ -15,11 +15,11 @@
     "static/media/detalhe3.png": "/CursosLanding/static/media/detalhe3.aec107ff432041f9928d.png",
     "static/media/item3.png": "/CursosLanding/static/media/item3.ed3d1e340bf4eb1d62b4.png",
     "index.html": "/CursosLanding/index.html",
-    "main.d1307dfc.css.map": "/CursosLanding/static/css/main.d1307dfc.css.map",
+    "main.659aa062.css.map": "/CursosLanding/static/css/main.659aa062.css.map",
     "main.ba4bf126.js.map": "/CursosLanding/static/js/main.ba4bf126.js.map"
   },
   "entrypoints": [
-    "static/css/main.d1307dfc.css",
+    "static/css/main.659aa062.css",
     "static/js/main.ba4bf126.js"
   ]
 }
