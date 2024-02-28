@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/CursosLanding/static/css/main.6c1055e9.css",
-    "main.js": "/CursosLanding/static/js/main.ba4bf126.js",
+    "main.css": "/CursosLanding/static/css/main.b132c76e.css",
+    "main.js": "/CursosLanding/static/js/main.d35fdf2b.js",
     "static/media/wallpapper.png": "/CursosLanding/static/media/wallpapper.7d4519d0ab4bed6bdae4.png",
     "static/media/background-form.png": "/CursosLanding/static/media/background-form.aad88582e2c5ec67b7f2.png",
     "static/media/foto_marketing.png": "/CursosLanding/static/media/foto_marketing.52d45cd659c45139bcf5.png",
@@ -15,11 +15,11 @@
     "static/media/detalhe3.png": "/CursosLanding/static/media/detalhe3.aec107ff432041f9928d.png",
     "static/media/item3.png": "/CursosLanding/static/media/item3.ed3d1e340bf4eb1d62b4.png",
     "index.html": "/CursosLanding/index.html",
-    "main.6c1055e9.css.map": "/CursosLanding/static/css/main.6c1055e9.css.map",
-    "main.ba4bf126.js.map": "/CursosLanding/static/js/main.ba4bf126.js.map"
+    "main.b132c76e.css.map": "/CursosLanding/static/css/main.b132c76e.css.map",
+    "main.d35fdf2b.js.map": "/CursosLanding/static/js/main.d35fdf2b.js.map"
   },
   "entrypoints": [
-    "static/css/main.6c1055e9.css",
-    "static/js/main.ba4bf126.js"
+    "static/css/main.b132c76e.css",
+    "static/js/main.d35fdf2b.js"
   ]
 }
