@@ -1,11 +1,26 @@
-import React from 'react';
+import React , {useEffect, useState} from 'react';
 import './Navbar.css';
 import logo from '../../assets/img/logo.png';
 import BarsMenu from '../ComponentesPadrao/BarsMenu';
 
 const Navbar = () => {
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const isScrolled = window.scrollY > (document.querySelector('.home').offsetHeight / 3);
+      setScrolled(isScrolled);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
   return (
-      <header className="navbar">
+    <header className={`navbar ${scrolled ? 'scrolled' : ''}`}>
           <BarsMenu/>
           <nav className="conteudo_navbar">
             <a href="/CursosLanding" className="logo_navbar"><img src={logo} alt='Logo Andrade'></img> AndradeMarketing</a>
